@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="asserts/css/normalize.css">
+    <style>
+        body>section:nth-child(1){
+            position: absolute;
+            height: 50vh;
+            width: 50vw;
+            top: 0;
+            left: 0;
+            background-color: red;
+        }
+        body>section:nth-child(2){
+            position: absolute;
+            height: 50vh;
+            width: 50vw;
+            top: 0;
+            right: 0;
+            background-color: green;
+        }
+        body>section:nth-child(3){
+            position: absolute;
+            height: 50vh;
+            width: 50vw;
+            bottom: 0;
+            left: 0;
+            background-color: orange;
+        }
+        body>section:nth-child(4){
+            position: absolute;
+            height: 50vh;
+            width: 50vw;
+            bottom: 0;
+            right: 0;
+            background-color: deeppink;
+        }
+
+        /*center content of squared*/
+        body section>section{
+            position: relative;
+            width: 10em;
+            height: 10em;
+            border-radius: 10em;
+            background-color: white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+        body section>section>div{
+            position: absolute;
+            height: 4em;
+            width: 4em;
+            background-color: red;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /*center content*/
+        body>div{
+            position: absolute;
+            height: 10em;
+            width: 10em;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+        }
+        body>div>div{
+            position: absolute;
+            height: 5em;
+            width: 5em;
+            border-radius: 5em;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: red;
+        }
+
+        /*other circles*/
+        body>section:nth-child(5)>div{
+            position: absolute;
+            background-color: white;
+            width: 10em;
+            height: 10em;
+        }
+        body>section:nth-child(5)>div:nth-child(1){
+            border-bottom-right-radius: 10em;
+            left: 0;
+            top: 0;
+        }
+        body>section:nth-child(5)>div:nth-child(2){
+            border-bottom-left-radius: 10em;
+            right: 0;
+            top: 0;
+        }
+        body>section:nth-child(5)>div:nth-child(3){
+            border-top-left-radius: 10em;
+            right: 0;
+            bottom: 0;
+        }
+        body>section:nth-child(5)>div:nth-child(4){
+            border-top-right-radius: 10em;
+            left: 0;
+            bottom: 0;
+        }
+        body>section:nth-child(5)>div:nth-child(5){
+            border-bottom-right-radius:5em;
+            height: 5em;
+            width: 5em;
+            left: 50%;
+            top: 0;
+        }
+        body>section:nth-child(5)>div:nth-child(6){
+             border-bottom-left-radius: 5em;
+            height: 5em;
+            width: 5em;
+            top: 0;
+             right: 50%;
+
+
+         }
+        body>section:nth-child(5)>div:nth-child(7){
+            border-top-right-radius: 5em;
+            height: 5em;
+            width: 5em;
+            bottom: 0;
+            left: 50%;
+
+        }
+        body>section:nth-child(5)>div:nth-child(8){
+            border-top-left-radius: 5em;
+            height: 5em;
+            width: 5em;
+            bottom: 0;
+            right: 50%;
+
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <section>
+        <div></div>
+    </section>
+</section>
+<section>
+    <section>
+        <div></div>
+    </section>
+</section>
+<section>
+    <section>
+        <div></div>
+    </section>
+</section>
+<section>
+    <section>
+        <div></div>
+    </section>
+</section>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+<div>
+    <div></div>
+</div>
+</body>
+</html>
+
+
+
+
+
