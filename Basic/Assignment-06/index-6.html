@@ -38,7 +38,17 @@
             width: max-content;
             height: max-content;
         }
+        section>div:hover{
+            cursor: pointer;
+            transform: rotate(360deg);
+            transition: all 3s;
+        }
+        section > div:hover h1{
+            transform: rotate(-360deg);
+            transition: all 3s;
+        }
     </style>
+
 </head>
 <body>
 <section>
